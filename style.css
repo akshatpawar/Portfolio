@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background-image: url("data/bg3.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#menu {
+    float: right;
+    margin-right: 15vw;
+}
+
+#navbar {
+    /* background: linear-gradient(to bottom, rgb(0, 0, 0), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)); */
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px 0px;
+    overflow: auto;
+    border-bottom: 10px #000000;
+}
+
+#navbar ul{
+    /* margin: auto; */
+    overflow: auto;
+}
+
+#navbar li{
+    /* float: left; */
+    display: inline-block;
+    list-style: none;
+    margin: auto 20px;
+}
+
+#navbar li a{
+    padding: 3px 3px;
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#navbar ul li a.active{
+    color: red;
+}
+
+#navbar li a:hover{
+    color: red
+}
+
+#logodiv {
+    float: left;
+    margin: auto 0;
+    text-align: center;
+    
+}
+
+#logo {
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin-left: 15vw;
+}
+
+img {
+    height: 35px;
+    width: 35px;
+    padding: 10px;
+}
+
+#det1 {
+    /* background: url("data/bg2smol.png"); */
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#det1cont {
+    
+    overflow: auto;
+    width: 85vw;
+}
+
+#links {
+    margin-top: 180px;
+    overflow: auto;
+    height: 100%;
+    text-align: center;
+    width: 10vw;
+}
+
+h1 {
+    margin: 5vw 0 2vh 6vw;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    height: 400px;
+    margin: 0 15vw 0 5vw;
+    padding: 10px 20px 10px 10px;
+    color: white;
+    background-color: rgb(64, 64, 64, 0.5);
+    box-shadow: 15px 15px rgb(30, 30, 30, 0.5);
+}
+
+#det2 {
+    height: 800px;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 100px 0px;
+}
