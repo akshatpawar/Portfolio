@@ -21,14 +21,14 @@ body {
     /* background: linear-gradient(to bottom, rgb(0, 0, 0), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)); */
     background: rgba(0, 0, 0, 0.5);
     padding: 20px 0px;
-    overflow: auto;
+    overflow: hidden;
     border-bottom: 10px #000000;
 }
 
-#navbar ul{
-    /* margin: auto; */
+/* #navbar ul{
+    margin: auto;
     overflow: auto;
-}
+} */
 
 #navbar li{
     /* float: left; */
@@ -82,7 +82,7 @@ img {
     flex-direction: row-reverse;
 }
 
-#det1cont {
+.det1cont {
     
     overflow: auto;
     width: 85vw;
@@ -114,7 +114,7 @@ p {
     box-shadow: 15px 15px rgb(30, 30, 30, 0.5);
 }
 
-#det2 {
+.container {
     height: 800px;
     background-color: rgba(255, 255, 255, 0.5);
     margin: 100px 0px;
