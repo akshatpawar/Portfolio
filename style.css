@@ -77,7 +77,7 @@ img {
     /* background: url("data/bg2smol.png"); */
     background-size: cover;
     background-position: center;
-    height: 650px;
+    /* height: 650px; */
     display: flex;
     flex-direction: row-reverse;
 }
@@ -86,6 +86,14 @@ img {
     
     overflow: auto;
     width: 85vw;
+}
+
+.cursive {
+    font-family: 'Corinthia', cursive;
+}
+
+.codehead {
+    font-family: 'Major Mono Display', monospace;
 }
 
 #links {
@@ -97,7 +105,7 @@ img {
 }
 
 h1 {
-    margin: 5vw 0 2vh 6vw;
+    margin: 5vw 0 4vh 6vw;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 40px;
@@ -106,9 +114,9 @@ h1 {
 p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.5em;
-    height: 400px;
+    /* height: 400px; */
     margin: 0 15vw 0 5vw;
-    padding: 10px 20px 10px 10px;
+    padding: 20px 20px 20px 15px;
     color: white;
     background-color: rgb(64, 64, 64, 0.5);
     box-shadow: 15px 15px rgb(30, 30, 30, 0.5);
