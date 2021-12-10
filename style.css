@@ -76,12 +76,24 @@ img {
     /* background: url("data/bg2smol.png"); */
     background-size: cover;
     background-position: center;
-    /* height: 650px; */
+    height: 650px;
     display: flex;
+    align-items: center;
     flex-direction: row-reverse;
 }
 
+.quote {
+    text-align: center;
+    color: white;
+    font-family: 'Corinthia', cursive;
+    font-size: 80px;
+}
+
 .det1cont {
+    width: 85vw;
+}
+
+.det2cont {
     
     overflow: auto;
     width: 85vw;
@@ -96,14 +108,15 @@ img {
 }
 
 #links {
-    margin-top: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     overflow: auto;
     height: 100%;
-    text-align: center;
     width: 10vw;
 }
 
-h1 {
+.det2head {
     margin: 5vw 0 4vh 6vw;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
@@ -124,5 +137,5 @@ p {
 .container {
     height: 800px;
     background-color: rgba(255, 255, 255, 0.5);
-    margin: 100px 0px;
+    margin: 0 0 100px 0px;
 }
