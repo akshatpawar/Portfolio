@@ -6,27 +6,34 @@
 
 #body_main {
     background-image: url("data/bg3.jpg");
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
 }
 
 #body_about {
     background-image: url("data/bg41.png");
+}
+
+#body_art {
+    background: #213f64;
+}
+
+body {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 }
 
 #menu {
-    float: right;
-    margin-right: 15vw;
+    /* float: right; */
+    /* margin-right: 15vw; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #navbar {
     /* background: linear-gradient(to bottom, rgb(0, 0, 0), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)); */
     background: rgba(0, 0, 0, 0.5);
-    padding: 20px 0px;
+    padding: 10px 0px;
     overflow: hidden;
     border-bottom: 10px #000000;
 }
@@ -40,7 +47,7 @@
     /* float: left; */
     display: inline-block;
     list-style: none;
-    margin: auto 20px;
+    margin: 5px 20px;
 }
 
 #navbar li a{
@@ -53,6 +60,12 @@
 #navbar ul li a.active{
     color: red;
 }
+
+/* .center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
 
 #navbar li a:hover{
     color: red
@@ -68,13 +81,13 @@
 #logo {
     text-decoration: none;
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;
+    font-family: 'Merienda', 'Bebas Neue', Impact;
+    font-size: 30px;
     margin-left: 15vw;
     text-shadow: 1px 1px 2px black, 0 0 5px black;
 }
 
-img {
+.icon {
     height: 35px;
     width: 35px;
     padding: 10px;
@@ -84,7 +97,29 @@ img {
     /* background: url("data/bg2smol.png"); */
     background-size: cover;
     background-position: center;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+
+#det1_about {
+    /* background: url("data/bg2smol.png"); */
+    background-size: cover;
+    background-position: center;
     height: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+
+#det1_art {
+    background: url("data/headbg.png");
+    background-size: cover;
+    background-position: center;
+    height: 600px;
     display: flex;
     align-items: center;
     flex-direction: row-reverse;
@@ -93,8 +128,23 @@ img {
 .quote {
     text-align: center;
     color: white;
-    font-family: 'Corinthia', cursive;
+    font-family: 'Arima Madurai','Corinthia', cursive;
+    font-size: 50px;
+    font-weight: 300;
+}
+
+.art_head {
+    text-align: left;
+    color: white;
+    font-family: 'Satisfy', cursive;
     font-size: 80px;
+}
+
+.details1 {
+    text-align: left;
+    color: white;
+    font-family: 'Satisfy', Arial;
+    font-size: 40px;
 }
 
 .det1cont {
@@ -124,6 +174,31 @@ img {
     width: 10vw;
 }
 
+#pfp {
+    height: 250px;
+    width: 250px;
+}
+
+#about1 {
+    width: 60vw;
+}
+
+.name {
+    text-align: left;
+    color: white;
+    font-family: 'Corinthia', cursive;
+    font-size: 80px;
+    margin-bottom: 30px;
+}
+
+.about_i {
+    font-family: 'Spartan', Arial;
+    color: white;
+    font-size: 20px;
+    margin-right: 10vw;
+    word-spacing: 2px;
+}
+
 .det2head {
     margin: 5vw 0 4vh 6vw;
     color: white;
@@ -131,7 +206,7 @@ img {
     font-size: 40px;
 }
 
-p {
+.home_info {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.5em;
     /* height: 400px; */
@@ -146,4 +221,36 @@ p {
     height: 800px;
     background-color: rgba(255, 255, 255, 0.5);
     margin: 0 0 100px 0px;
+}
+
+#det2_art {
+    background: #ffffff80;
+}
+
+.ichigo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+}
+
+.ichigo_img {
+    height: 580px;
+    /* margin: 20px 0px; */
+    box-shadow: 15px 15px #111111b0
+}
+
+#o_arts {
+    background: #00000080;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.artss {
+    height: 500px;
+    margin: 20px;
+    box-shadow: 15px 15px #ffffff3b
 }
