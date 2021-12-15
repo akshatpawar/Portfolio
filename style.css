@@ -12,6 +12,10 @@
     background-image: url("data/bg41.png");
 }
 
+#body_contact {
+    background-image: url("data/bg47.jpg");
+}
+
 #body_art {
     background: #213f64;
 }
@@ -104,6 +108,17 @@ body {
     flex-direction: row-reverse;
 }
 
+#det1_proj {
+    /* background: url("data/bg2smol.png"); */
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+
 #det1_about {
     /* background: url("data/bg2smol.png"); */
     background-size: cover;
@@ -131,6 +146,21 @@ body {
     font-family: 'Arima Madurai','Corinthia', cursive;
     font-size: 50px;
     font-weight: 300;
+    overflow: hidden;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+}
+
+#quote_p {
+    font-size: 40px;
+}
+
+#p_byline {
+    text-align: right;
+    color: white;
+    font-family: 'Arima Madurai','Corinthia', cursive;
+    font-size: 30px;
+    font-weight: 300;
+    margin-right: 10vw;
 }
 
 .art_head {
@@ -254,3 +284,129 @@ body {
     margin: 20px;
     box-shadow: 15px 15px #ffffff3b
 }
+
+#cont_proj {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+}
+
+.det_proj {
+    width: 70vw;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.proj_head {
+    font-size: 40px;
+    text-align: center;
+    word-spacing: 10px;
+    text-decoration: underline;
+    color: #000000;
+    margin: 40px;
+    font-family: 'Ubuntu', 'Arima Madurai', Arial;
+    font-weight: 700;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+}
+
+.proj_head:hover {
+    color: #ff0000;
+}
+
+.proj_ss {
+    height: 30vw;
+    margin: 30px;
+    filter: drop-shadow(1px 1px 4px #000000);
+}
+
+.proj_info {
+    margin: 20px 8vw;
+    /* text-align: justify; */
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+#contact_box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 50px 0px 20px 0px;
+    backdrop-filter: blur(5px);
+}
+
+.form {
+    width: 60vw;
+    /* height: 600px; */
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.contact {
+    width: 30vw;
+    height: 350px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 20px;
+}
+
+.faq {
+    font-family: 'Spartan', 'Arima Madurai', sans-serif;
+    margin: 20px 0px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+label {
+    font-family: 'Spartan', sans-serif;
+}
+
+input[type=text], input[type=email], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+  
+input[type=submit] {
+    background-color: #ff0000;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+input[type=submit]:hover {
+    background-color: rgb(175, 0, 0);
+}
+  
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.contact ul li {
+    margin: 20px;
+    list-style: none;
+}
+
+.contact ul li a {
+    font-family: 'Arima Madurai', sans-serif;
+    color: #000000;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.contact ul li a:hover {
+    color: #ff0000;
+}
+
