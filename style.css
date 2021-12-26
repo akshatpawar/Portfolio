@@ -5,11 +5,12 @@
 }
 
 #body_main {
-    background-image: url("data/bg3.jpg");
+    background-image: url("data/bg/bg1.jpg");
 }
 
 #body_about {
-    background-image: url("data/bg41.png");
+    background-image: url("data/bg/bg3.jpg");
+    /* background: #252525; */
 }
 
 #body_contact {
@@ -17,7 +18,8 @@
 }
 
 #body_art {
-    background: #213f64;
+    background-image: url("data/bg/bg5.jpg");
+    /* background: #213f64; */
 }
 
 body {
@@ -123,7 +125,7 @@ body {
     /* background: url("data/bg2smol.png"); */
     background-size: cover;
     background-position: center;
-    height: 650px;
+    height: 700px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -143,8 +145,8 @@ body {
 .quote {
     text-align: center;
     color: white;
-    font-family: 'Arima Madurai','Corinthia', cursive;
-    font-size: 50px;
+    font-family: 'Spartan', 'Arima Madurai','Corinthia', cursive;
+    font-size: 45px;
     font-weight: 300;
     overflow: hidden;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
@@ -215,10 +217,12 @@ body {
 
 .name {
     text-align: left;
+    text-decoration: underline 3px;
     color: white;
-    font-family: 'Corinthia', cursive;
+    font-family: 'Bebas Neue', 'Corinthia', cursive;
     font-size: 80px;
     margin-bottom: 30px;
+    font-weight: 300;
 }
 
 .about_i {
@@ -254,7 +258,7 @@ body {
 }
 
 #det2_art {
-    background: #ffffff80;
+    background: #6584b663;
 }
 
 .ichigo {
@@ -410,3 +414,48 @@ input[type=submit]:hover {
     color: #ff0000;
 }
 
+#det2_about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(data/about/Trophy.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 420px;
+}
+
+#trophy {
+    width: 100%;
+}
+
+.skills_head {
+    color: white;
+    font-size: 70px;
+    font-family: 'Spartan';
+    padding: 40px 70px;
+    background: rgba(37, 37, 37, 0.35);
+    text-shadow: 1px 1px 5px #000000;
+    box-shadow: 15px 15px #11111181;
+}
+
+#det3_about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0px;
+}
+
+.skill_box {
+    margin: 20px;
+    background-color: rgba(236, 232, 225, 0.95);
+    width: 90%;
+    box-shadow: 15px 15px #585858b0;
+}
+
+.skill_title {
+    color: #000000;
+    font-family: 'Ubuntu', Arial;
+    margin: 20px;
+}
