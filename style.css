@@ -545,6 +545,7 @@ input[type=submit]:hover {
     }
     #det1_art {
         justify-content: center;
+        height: 50vh;
     }
     .art_head {
         font-size: 60px;
