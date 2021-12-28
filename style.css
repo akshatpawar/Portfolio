@@ -552,8 +552,18 @@ input[type=submit]:hover {
     .details1 {
         font-size: 30px;
     }
+
+    #contact_box {
+        flex-direction: column;
+        align-items: center;
+        justify-content: stretch;
+    }
+    .form , .contact{
+        width: 85vw;
+        margin: 5vw;
+    }
 }
 
-@media screen and (max-width: ) {
+/* @media screen and (max-width: ) {
     
-}
+} */
