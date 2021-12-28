@@ -166,15 +166,15 @@ nav .nav-icon .line {
     text-align: center;
     color: white;
     font-family: 'Spartan', 'Arima Madurai','Corinthia', cursive;
-    font-size: 45px;
+    font-size: 40px;
     font-weight: 300;
     overflow: hidden;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
 }
 
-#quote_p {
+/* #quote_p {
     font-size: 40px;
-}
+} */
 
 #p_byline {
     text-align: right;
@@ -507,6 +507,53 @@ input[type=submit]:hover {
         padding: 20px 25px;
     }
     .quote {
+        font-size: 26px;
+    }
+
+    #links {
+        display: none;
+    }
+    .det_proj {
+        width: 90vw;
+    }
+    .proj_ss {
+        width: 88vw;
+        height: auto;
+    }
+    .proj_head {
+        font-size: 30px;
+        margin: 30px;
+    }
+    #p_byline {
+        font-size: 22px;
+        margin: 0;
+    }
+
+    .ichigo {
+        height: auto;
+    }
+    .ichigo_img, .artss {
+        width: 90vw;
+        height: auto;
+        box-shadow: 8px 8px #111111b0;
+        margin: 20px 0px;
+    }
+    .det1cont {
+        width: 90vw;
+        margin: 0;
+        padding: 0;
+    }
+    #det1_art {
+        justify-content: center;
+    }
+    .art_head {
+        font-size: 60px;
+    }
+    .details1 {
         font-size: 30px;
     }
+}
+
+@media screen and (max-width: ) {
+    
 }
