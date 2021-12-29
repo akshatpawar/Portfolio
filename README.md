@@ -1,4 +1,4 @@
-# Portfolio (Not Responsive yet)
+# Portfolio
 
 * Visit https://akshatpawar.github.io/ 
       OR
