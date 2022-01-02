@@ -5,20 +5,20 @@
 }
 
 #body_main {
-    background-image: url("data/bg/bg1.jpg");
+    background-image: url("https://i.imgur.com/mKY8o6i.jpg");
 }
 
 #body_about {
-    background-image: url("data/bg/bg3.jpg");
+    background-image: url("https://i.imgur.com/iTYwqx7.jpg");
     /* background: #252525; */
 }
 
 #body_contact {
-    background-image: url("data/bg47.jpg");
+    background-image: url("https://i.imgur.com/4nqRjjj.jpg");
 }
 
 #body_art {
-    background-image: url("data/bg/bg5.jpg");
+    background-image: url("https://i.imgur.com/wnXvjNV.jpg");
     /* background: #213f64; */
 }
 
@@ -153,7 +153,7 @@ nav .nav-icon .line {
 }
 
 #det1_art {
-    background: url("data/headbg.png");
+    background: url("https://i.imgur.com/40fG3SD.png");
     background-size: cover;
     background-position: center;
     height: 600px;
