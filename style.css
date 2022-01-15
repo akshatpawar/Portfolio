@@ -531,11 +531,24 @@ input[type=submit]:hover {
 
 .link_txt {
     color: #123133;
+    font-size: 22px;
     font-family: 'Ubuntu', Arial;
     margin: 30px;
 }
 
 @media screen and (max-width: 800px) {
+    #det1{
+        height: 85vh;
+        flex-direction: column-reverse;
+        align-items: flex-start;
+    }
+    #links {
+        flex-direction: row;
+        width: 100vw;
+        height: 10vh;
+        position: absolute;
+        bottom: 0px;
+    }
     #det1_about {
         flex-direction: column;
         height: auto;
@@ -565,8 +578,9 @@ input[type=submit]:hover {
         font-size: 26px;
     }
 
-    #links {
-        display: none;
+    #det1_proj {
+        position: relative;
+        flex-direction: column-reverse;
     }
     .det_proj {
         width: 90vw;
@@ -599,8 +613,10 @@ input[type=submit]:hover {
         padding: 0;
     }
     #det1_art {
+        flex-direction: column-reverse;
         justify-content: center;
         height: 50vh;
+        position: relative;
     }
     .art_head {
         font-size: 60px;
@@ -627,11 +643,14 @@ input[type=submit]:hover {
 @media screen and (max-width: 500px) {
     .link_box {
         width: 85vw;
+        height: 70px;
         padding: 0 1.1rem;
     }
-
     #pfp_links {
         height: 150px;
         width: auto;
+    }
+    .link_txt{
+        font-size: 18px;
     }
 }
