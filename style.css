@@ -608,7 +608,7 @@ input[type=submit]:hover {
         margin: 20px 0px;
     }
     .det1cont {
-        width: 90vw;
+        width: 100vw;
         margin: 0;
         padding: 0;
     }
@@ -620,9 +620,11 @@ input[type=submit]:hover {
     }
     .art_head {
         font-size: 60px;
+        margin: 0 5vw;
     }
     .details1 {
         font-size: 30px;
+        margin: 0 5vw;
     }
 
     #contact_box {
