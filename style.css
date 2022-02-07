@@ -500,7 +500,7 @@ input[type=submit]:hover {
 .link_box {
     background-color: #ffffffbd;
     border-radius: 15px;
-    height: 90px;
+    height: 75px;
     width: 400px;
     padding: 0px 2vw;
     display: flex;
@@ -534,6 +534,14 @@ input[type=submit]:hover {
     font-size: 22px;
     font-family: 'Ubuntu', Arial;
     margin: 30px;
+}
+
+#mal_icon {
+    height: 2.8em;
+    width: 2.7em;
+    line-height: 1;
+    border-radius: 10%;
+    filter: grayscale(90%) contrast(160%);
 }
 
 @media screen and (max-width: 800px) {
